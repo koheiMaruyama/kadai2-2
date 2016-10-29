@@ -1,4 +1,4 @@
-package hoshi;
+﻿package hoshi;
 
 public class hoshi {
 	public static void main (String args[]){
@@ -8,7 +8,7 @@ public class hoshi {
 		int cnt = 0;
 		String hoshi = "";
 
-//		jは入力用
+                //jは入力用
 		j = 6 ;
 
 		for(; i1 <= j -1 ;){
