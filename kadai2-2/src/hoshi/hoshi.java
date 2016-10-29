@@ -1,5 +1,6 @@
 ﻿package hoshi;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class hoshi {
 	public static void main (String args[]){
 		int i1 = 0;
@@ -7,10 +8,25 @@ public class hoshi {
 		int j = 0;
 		int cnt = 0;
 		String hoshi = "";
+		boolean err = false;
+		String chk = "";
+
+		System.out.print("表示する行数を入力してください：");
+
+		while (err == false){
+			try{
+				InputStreamReader isr = new InputStreamReader(System.in);
+				BufferedReader br = new BufferedReader(isr);
+				chk = br.readLine();
 
                 //jは入力用
-		j = 6 ;
+				j = Integer.parseInt(chk) ;
+				err = true;
 
+			}catch(Exception e){
+				err = false;
+			}
+		}
 		for(; i1 <= j -1 ;){
 
 			for(; i2 < j * 2 -1 -i1;){
