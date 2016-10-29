@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (kadai2-2/src/hoshi)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1476112548787">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="kadai2-2/src/hoshi" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/kadai2-2/src/hoshi" resourceType="2"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="C:/Users/W-0078/Documents/丸山フォルダ/98_共有フォルダ/java研修/課題2-2/kadai2-2" dstRev="refs/remotes/kadai202/master" inludeLocal="true" srcRev="HEAD">
+<includedPaths>
+<path path="C:/Users/W-0078/Documents/丸山フォルダ/98_共有フォルダ/java研修/課題2-2/kadai2-2/src/hoshi"/>
+</includedPaths>
+</gitSynchronizeData>
+</data>
+</participant>
+</syncparticipants>
