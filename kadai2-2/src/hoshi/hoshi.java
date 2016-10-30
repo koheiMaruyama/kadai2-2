@@ -25,6 +25,8 @@ public class hoshi {
 
 			}catch(Exception e){
 				err = false;
+				System.out.println("数値を入力してください");
+				System.out.print("表示する行数を入力してください：");
 			}
 		}
 		for(; i1 <= j -1 ;){
